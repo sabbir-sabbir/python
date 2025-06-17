@@ -61,12 +61,12 @@
 
 
 # dictionary
-marksOfStudent = {
-    "SABBIR": 100,
-    "Threnis": 75,
-    "Ronaldo": 75
-}
-marksOfStudent.update({"Threnis": 80})
-print(marksOfStudent)
-print(marksOfStudent.get("Threnis"))
-print(marksOfStudent["Threnis"])
+# marksOfStudent = {
+#     "SABBIR": 100,
+#     "Threnis": 75,
+#     "Ronaldo": 75
+# }
+# marksOfStudent.update({"Threnis": 80})
+# print(marksOfStudent)
+# print(marksOfStudent.get("Threnis"))
+# print(marksOfStudent["Threnis"])
