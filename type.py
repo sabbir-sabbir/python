@@ -51,6 +51,9 @@
 # print(x)
 
 
-a = (1,2,3,4,5,6)
-lengthOfTwo = a.count(2)
-print(lengthOfTwo)
+# a = (1,2,3,4,5,6)
+# lengthOfTwo = a.count(2)
+# print(lengthOfTwo)
+
+newTuple = (1,2,3,4,5,6)
+print(2 in newTuple)
