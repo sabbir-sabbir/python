@@ -66,4 +66,6 @@ marksOfStudent = {
     "Threnis": 75,
     "Ronaldo": 75
 }
-print(marksOfStudent.keys())
+marksOfStudent.update({"Threnis": 80})
+print(marksOfStudent)
+print(marksOfStudent.get("Threnis"))
