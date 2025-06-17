@@ -36,8 +36,16 @@
 
 # print("Name:\tSabbir")
 
+# strings
+# print("C:\\Users\\Sabbir")
+# print('It\'s fine')
+# print("He said: \"Hello\"")
+# print("123\rABC")
+# print("Line1\fLine2")
+# print("\a")
 
-print("C:\\Users\\Sabbir")
-print('It\'s fine')
-print("He said: \"Hello\"")
-print("123\rABC")
+
+foods = ["Apple", "Orange", 1, 2, True]
+x = foods
+x[0] = "Banana"
+print(x[0])
