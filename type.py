@@ -34,4 +34,10 @@
 # name = 'SABBIR\nRahma\'n\''
 # print(name)
 
-print("Name:\tSabbir")
+# print("Name:\tSabbir")
+
+
+print("C:\\Users\\Sabbir")
+print('It\'s fine')
+print("He said: \"Hello\"")
+print("123\rABC")
