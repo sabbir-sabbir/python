@@ -70,3 +70,21 @@
 # print(marksOfStudent)
 # print(marksOfStudent.get("Threnis"))
 # print(marksOfStudent["Threnis"])
+
+
+
+# Set
+# s = {1,2,3,4,5,6,7,8,9}
+# # print(len(s))
+# print(s.pop())
+
+s1 = {1,2,3}
+s2 = {4,5,6}
+print(s1.union(s2))
+
+
+
+
+
+
+
