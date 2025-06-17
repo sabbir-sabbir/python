@@ -66,4 +66,4 @@ marksOfStudent = {
     "Threnis": 75,
     "Ronaldo": 75
 }
-print(marksOfStudent, type(marksOfStudent))
+print(marksOfStudent.keys())
