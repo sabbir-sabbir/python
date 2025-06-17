@@ -45,7 +45,7 @@
 # print("\a")
 
 
-foods = ["Apple", "Orange", 1, 2, True]
+foods = [1,2,3,4656,88,99,244,155,889,]
 x = foods
-x[0] = "Banana"
-print(x[0])
+x.insert(3, 33333333)
+print(x)
