@@ -55,5 +55,15 @@
 # lengthOfTwo = a.count(2)
 # print(lengthOfTwo)
 
-newTuple = (1,2,3,4,5,6)
-print(2 in newTuple)
+# newTuple = (1,2,3,4,5,6)
+# print(len(newTuple))
+# print(2 in newTuple)
+
+
+# dictionary
+marksOfStudent = {
+    "SABBIR": 100,
+    "Threnis": 75,
+    "Ronaldo": 75
+}
+print(marksOfStudent, type(marksOfStudent))
