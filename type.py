@@ -69,3 +69,4 @@ marksOfStudent = {
 marksOfStudent.update({"Threnis": 80})
 print(marksOfStudent)
 print(marksOfStudent.get("Threnis"))
+print(marksOfStudent["Threnis"])
