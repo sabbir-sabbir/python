@@ -95,11 +95,21 @@
 
 
 # problem slove 1
-words = {
-    "madad": "help",
-    "kuchi": "chair",
-    "billi": "cat"
-}
+# words = {
+#     "madad": "help",
+#     "kuchi": "chair",
+#     "billi": "cat"
+# }
 
-word = input("Enter the hindi word for English translation: _")
-print(words[word])
+# word = input("Enter the hindi word for English translation: _")
+# print(words[word])
+
+
+
+age = int(input("Enter your age here: _"))
+
+if(age >= 18):
+    print("You can drink alcohol now")
+
+else:
+    print("You cannot drink alcohol now")
