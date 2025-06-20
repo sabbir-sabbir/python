@@ -106,13 +106,35 @@
 
 
 
-age = int(input("Enter your age here: _"))
+# age = int(input("Enter your age here: _"))
 
-if(age >= 18):
-    print("You can drink alcohol now")
+# if(age >= 18):
+#     print("You can drink alcohol now")
 
-elif(age < 0):
-    print("Your entering the wrong age !!!")
+# elif(age < 0):
+#     print("Your entering the wrong age !!!")
 
-else:
-    print("You cannot drink alcohol now")
+# else:
+#     print("You cannot drink alcohol now")
+
+# marks1 = int(input("Enter marks 1 : _ "))
+# marks2 = int(input("Enter marks 2 : _ "))
+# marks3 = int(input("Enter marks 3 : _ "))
+
+# total_percentage = (marks1 + marks2 + marks3)/3
+
+# if(total_percentage > 40):
+#     print("Your pass, You got the mark", total_percentage)
+# else:
+#     print("Fail, Better luck next time !!!")
+
+
+
+
+
+
+
+
+
+
+
