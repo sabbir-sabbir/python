@@ -111,5 +111,8 @@ age = int(input("Enter your age here: _"))
 if(age >= 18):
     print("You can drink alcohol now")
 
+elif(age < 0):
+    print("Your entering the wrong age !!!")
+
 else:
     print("You cannot drink alcohol now")
