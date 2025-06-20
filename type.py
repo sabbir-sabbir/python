@@ -94,4 +94,12 @@
 
 
 
+# problem slove 1
+# words = {
+#     "madad": "help",
+#     "kuchi": "chair",
+#     "billi": "cat"
+# }
 
+# word = input("Enter the hindi word for English translation: _")
+# print(words[word])
