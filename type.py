@@ -141,14 +141,26 @@
 
 
 # while loop
-i = 1
-while(i<6):
-    print("HELLO")
-    i +=1
+# i = 1
+# while(i<6):
+#     print("HELLO")
+#     i +=1
+
+# for i in range(51):
+#      if(i == 45):
+#         continue
+#      print(i)
 
 
 
 
 
+# Take input from the user and convert it to an integer
+n = int(input("Enter a number: "))
+
+# Loop from 1 to 10 (inclusive)
+for i in range(1, 11):
+    # Print the multiplication table in formatted form
+    print(f"{n} x {i} = {n * i}")
 
 
