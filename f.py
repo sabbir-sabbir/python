@@ -14,8 +14,8 @@
 
 
 
-def goodDay():
-    name = input("Enter your name get greet:  ")
-    print("Good Morning", name)
+# def goodDay():
+#     name = input("Enter your name get greet:  ")
+#     print("Good Morning", name)
 
-goodDay()    
+# goodDay()    
