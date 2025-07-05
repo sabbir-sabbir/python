@@ -155,12 +155,13 @@
 
 
 
-# Take input from the user and convert it to an integer
-n = int(input("Enter a number: "))
+# # Take input from the user and convert it to an integer
+# n = int(input("Enter a number: "))
 
-# Loop from 1 to 10 (inclusive) extra loop separate
-for i in range(1, 11):
-    # Print the multiplication table in formatted form
-    print(f"{n} X {i} ===================================================================== {n * i}")
+# # Loop from 1 to 10 (inclusive) extra loop separate
+# for i in range(1, 11):
+#     # Print the multiplication table in formatted form
+#     print(f"{n} X {i} ===================================================================== {n * i}")
+
 
 
