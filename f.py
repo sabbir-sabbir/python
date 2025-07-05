@@ -21,9 +21,25 @@
 # goodDay()    
 
 
-def goodDay(name, ending="Thanks ++"):
-    print("Good day", name)
-    print(ending,name)
+# def goodDay(name, ending="Thanks ++"):
+#     print("Good day", name)
+#     print(ending,name)
 
 
-goodDay("SABBIR", "THANK YOU SO MUCH")
+# goodDay("SABBIR", "THANK YOU SO MUCH")
+
+
+
+# def factorial(n):
+#     if(n==1 or n==0):
+#         return 1
+#     return n * factorial(n-1)
+
+# n = int(input("Enter the number:  "))
+# print(f"The factorial of this number is: {factorial(n)}")
+
+
+def inc_to_cms(inch):
+    return inch * 2.54
+
+print(round(inc_to_cms(45)))
