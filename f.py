@@ -39,7 +39,19 @@
 # print(f"The factorial of this number is: {factorial(n)}")
 
 
-def inc_to_cms(inch):
-    return inch * 2.54
+# def inc_to_cms(inch):
+#     return inch * 2.54
 
-print(round(inc_to_cms(45)))
+# print(round(inc_to_cms(45)))
+
+
+list = ["Harry", "Rohan", "Shovam", "an"]
+
+def removeN(list, word):
+    n = []
+    for item in list:
+        if not(item == word):
+            n.append(item.strip(word))
+    return n        
+    
+print(removeN(list, "an"))
