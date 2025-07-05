@@ -7,3 +7,7 @@ def avg():
     print(average)
 
 avg()
+print("Thank you")
+avg()
+print("Thank you")
+avg()
