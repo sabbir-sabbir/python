@@ -45,13 +45,51 @@
 # print(round(inc_to_cms(45)))
 
 
-list = ["Harry", "Rohan", "Shovam", "an"]
+# list = ["Harry", "Rohan", "Shovam", "an"]
 
-def removeN(list, word):
-    n = []
-    for item in list:
-        if not(item == word):
-            n.append(item.strip(word))
-    return n        
+# def removeN(list, word):
+#     n = []
+#     for item in list:
+#         if not(item == word):
+#             n.append(item.strip(word))
+#     return n        
     
-print(removeN(list, "an"))
+# print(removeN(list, "an"))
+
+
+
+
+
+
+
+
+# f = open("name.txt")
+# data = f.read()
+# print(data)
+# f.close()
+
+
+# content = "THIS IS A TESTING CONTENT"
+# f = open("name.txt", "w")
+# f.write(content)
+# f.close()
+
+# f = open("name.txt")
+# lines = f.readlines()
+# print(lines)
+
+
+# content = "This is another content"
+
+# f = open("name.txt", "a")
+# newData = f.write(content)
+# print(newData)
+# f.close()
+
+
+
+# f = open("name.txt", )
+# f.close()
+
+with open("name.txt") as f:
+    print(f.read())
