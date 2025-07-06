@@ -24,7 +24,39 @@
 
 # employee_1 = Employee()  
 # employee_1.getInfo()      
-# employee_1.greet()      
+# employee_1.greet()   
+
+
+
+
+
+# constructor::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+class Employee:
+    name = "Threnis"
+    language = "German"
+    salary = 120000
+
+    def __init__(this, name, salary, language):  
+        this.name = name
+        this.language = language
+        this.salary = salary
+        print("Im creating an object!!")
+      
+
+    def getInfo(this):
+        print(f"The language is {this.language}. The salary is {this.salary}")
+    
+        
+
+employee_1 = Employee("Harry", 130000, "JavaScript")  
+employee_1.getInfo()  
+
+
+ 
+
+
+
+
 
 
 
