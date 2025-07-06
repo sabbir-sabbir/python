@@ -19,8 +19,12 @@ class Employee:
     def getInfo(this):
         print(f"The language is {this.language}. The salary is {this.salary}")
 
+    def greet(this):
+        print(f"Good morning {this.name}")     
+
 employee_1 = Employee()  
-Employee.getInfo(employee_1)      
+employee_1.getInfo()      
+employee_1.greet()      
 
 
 
