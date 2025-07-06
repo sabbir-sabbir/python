@@ -94,18 +94,19 @@
 # with open("name.txt") as f:
 #     print(f.read())
 
-def generateTable(n):
-    table = ""
-    for i in range(1, 11):
-        table += f"{n} X {i} = {n*i}\n"
-    with open(f"table/table{n}.txt", "w") as f:
-        f.write(table)
+# def generateTable(n):
+#     table = ""
+#     for i in range(1, 11):
+#         table += f"{n} X {i} = {n*i}\n"
+#     with open(f"table/table{n}.txt", "w") as f:
+#         f.write(table)
        
 
 
  
 
-for i in range(1, 21):
-    generateTable(i)
+# for i in range(1, 21):
+#     generateTable(i)
 
-print("Task completed") 
+# print("Task completed") 
+
