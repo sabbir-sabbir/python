@@ -54,18 +54,51 @@
 
  
 
-class Programmers:
-    company = "MS"
-    def __init__(self, name, salary, pincode):
-        self.name = name
-        self.salary = salary
-        self.pincode = pincode
+# class Programmers:
+#     company = "MS"
+#     def __init__(self, name, salary, pincode):
+#         self.name = name
+#         self.salary = salary
+#         self.pincode = pincode
 
-programmer1 = Programmers("Threnis", 120000, 9911)  
-print(programmer1.name, programmer1.salary, programmer1.pincode)     
-programmer2 = Programmers("Rohan", 130000, 7788) 
-print(programmer2.name, programmer2.salary, programmer2.pincode)
+# programmer1 = Programmers("Threnis", 120000, 9911)  
+# print(programmer1.name, programmer1.salary, programmer1.pincode)     
+# programmer2 = Programmers("Rohan", 130000, 7788) 
+# print(programmer2.name, programmer2.salary, programmer2.pincode)
 
+
+
+# class Calculator:
+#     def __init__(self, n):
+#         self.n = n 
+
+#     def square(self):
+#         print(f"The square is: {self.n*self.n}")    
+
+# a = Calculator(4)
+# a.square()
+# b = Calculator(6)
+# b.square()
+# c = Calculator(22)
+# c.square()
+
+
+
+from random import randint
+
+class Train:
+    def __init__(self, trainNO):
+        self.tranNO = trainNO
+
+    def book(self, fro, to):
+        print(f"Ticket is booked, Train no: {self.tranNO} from {fro} to {to}")
+    
+    def getStatus(self):
+        print(f"Train no: {self.tranNO} running on time, No delay")
+
+    def getFare(self, fro, to):
+        print(f"The ticket fare of train no: {self.tranNO} from {fro} to {to} is:  ")   
+        
 
 
 
