@@ -84,27 +84,40 @@
 
 
 
-from random import randint
+# test
+# from random import randint
 
-class Train:
-    def __init__(self, trainNO):
-        self.tranNO = trainNO
+# class Train:
+#     def __init__(self, trainNO):
+#         self.tranNO = trainNO
 
-    def book(self, fro, to):
-        print(f"Ticket is booked, Train no: {self.tranNO} from {fro} to {to}")
+#     def book(self, fro, to):
+#         print(f"Ticket is booked, Train no: {self.tranNO} from {fro} to {to}")
     
-    def getStatus(self):
-        print(f"Train no: {self.tranNO} running on time, No delay")
+#     def getStatus(self):
+#         print(f"Train no: {self.tranNO} running on time, No delay")
 
-    def getFare(self, fro, to):
-        print(f"The ticket fare of train no: {self.tranNO} from {fro} to {to} is: 500 tk ")   
-
-
-t = Train(12399)
-t.book("Dhaka", "Rajshahi")
-t.getStatus()
-t.getFare("Dhaka", "Rajshahi")
+#     def getFare(self, fro, to):
+#         print(f"The ticket fare of train no: {self.tranNO} from {fro} to {to} is: 500 tk ")   
 
 
+# t = Train(12399)
+# t.book("Dhaka", "Rajshahi")
+# t.getStatus()
+# t.getFare("Dhaka", "Rajshahi")
 
 
+# inheritance:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+class Parent:
+    car = "BMW"
+    money = 100000000
+    home  = "Big Apartment"
+
+
+
+
+
+
+class Child(Parent):
+    phone = "Iphone"
+    bike = "Suzuki"
