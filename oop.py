@@ -108,16 +108,73 @@
 
 
 # inheritance:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-class Parent:
-    car = "BMW"
-    money = 100000000
-    home  = "Big Apartment"
+# class Parent:
+#     car = "BMW"
+#     money = 100000000
+#     home  = "Big Apartment"
 
 
 
 
 
 
-class Child(Parent):
-    phone = "Iphone"
-    bike = "Suzuki"
+# class Child(Parent):
+#     phone = "Iphone"
+#     bike = "Suzuki"
+
+
+
+# k = Child()
+# print(k.car)
+
+
+
+# class Programmer:
+#     def __init__(self):
+#         print("This is Programmer class")
+
+
+# class Manager(Programmer):
+#     def __init__(self):
+#         super().__init__()  # Calls Programmer.__init__()
+#         print("This is Manager class")
+
+#     def __str__(self):
+#         return "This is a New object"
+
+
+# newObject = Manager()
+# print(newObject)
+
+
+
+
+# class Programmer:
+#     def __init__(self):
+#         print("This is Programmer class")
+
+
+# class Programmer2:
+#     def __init__(self):
+#         print("This is Programmer2 class")
+
+
+# class Manager(Programmer, Programmer2):
+#     def __init__(self):
+#         Programmer.__init__(self)     # manual call to Programmer's constructor
+#         Programmer2.__init__(self)    # manual call to Programmer2's constructor
+#         print("This is Manager class")
+
+
+# newObject = Manager()
+# print(newObject)
+
+
+
+
+
+
+
+
+
+
