@@ -97,8 +97,13 @@ class Train:
         print(f"Train no: {self.tranNO} running on time, No delay")
 
     def getFare(self, fro, to):
-        print(f"The ticket fare of train no: {self.tranNO} from {fro} to {to} is:  ")   
-        
+        print(f"The ticket fare of train no: {self.tranNO} from {fro} to {to} is: 500 tk ")   
+
+
+t = Train(12399)
+t.book("Dhaka", "Rajshahi")
+t.getStatus()
+t.getFare("Dhaka", "Rajshahi")
 
 
 
