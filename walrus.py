@@ -13,11 +13,21 @@
 # print(person, scores, identifier, Alist)
 
 
-try:
-    a = int(input("Hey, Enter a number:  "))
-    print(a)
+# try:
+#     a = int(input("Hey, Enter a number:  "))
+#     print(a)
 
-except Exception  as e:
-    print(e) 
+# except Exception  as e:
+#     print(e) 
 
-print("Thank you")
+# print("Thank you")
+
+
+
+# a = int(input("Enter a number:  "))
+# b = int(input("Enter b number:  "))
+
+# if(b == 0 ):
+#     raise ZeroDivisionError("Zero is not a vlid number for this programmer choise another valid number")
+# else:
+#     print(f"The division a/b is: {a // b}")
