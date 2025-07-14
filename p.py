@@ -1,5 +1,17 @@
 import os
 from typing import List
+from functools import reduce
+
+
+
+# reduc.......................................................
+# MyList: List[int] = [1,2,3,4,5,6,7,8]
+
+# def sum(a, b):
+#     return a + b
+
+# print(reduce(sum, MyList))
+# reduc.......................................................
 
 # Filter.....................................................
 # MyList: List[int] = [1,2,3,4,5,6,7,8]
@@ -13,11 +25,6 @@ from typing import List
 # onlyEven = filter(even, MyList)  
 # print(list(onlyEven))
 # Filter.....................................................  
-
-
-
-
-
 
 
 # MAP...................................................
