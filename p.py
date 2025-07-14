@@ -1,8 +1,33 @@
 import os
 from typing import List
 
+# Filter.....................................................
+# MyList: List[int] = [1,2,3,4,5,6,7,8]
+
+# def even(n):
+#     if(n%2 == 0):
+#         return True
+#     else:
+#         return False
+    
+# onlyEven = filter(even, MyList)  
+# print(list(onlyEven))
+# Filter.....................................................  
 
 
+
+
+
+
+
+# MAP...................................................
+# MyList: List[int] = [1,2,3,4,5,6,7]
+
+# square = lambda x: x*x
+
+# NewSquareList = map(square, MyList)
+# print(list(NewSquareList))
+# MAP...................................................
 
 
 # A: List[str] = ["code", "With", "Harry"] 
