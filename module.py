@@ -3,7 +3,7 @@
 
 
 # print(sum(5,6))
-# from typing import Tuple, List, Dict, Union
+from typing import Tuple, List, Dict, Union
 
 # person: Tuple[str, int] = ("Alice", 30)
 # scores: Dict[str, int] = {"SABBIR": 19, "Home": 717}
@@ -30,4 +30,9 @@
 # if(b == 0 ):
 #     raise ZeroDivisionError("Zero is not a vlid number for this programmer choise another valid number")
 # else:
-#     print(f"The division a/b is: {a // b}")
+#     print(f"The division a/b is: {a // b}")\
+
+myList: List[int] =  [1,2,3,4,5,6,7,8]
+
+squareOfMylist = [ i*i for i in myList]
+print(squareOfMylist)
