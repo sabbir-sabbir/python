@@ -4,11 +4,18 @@ from typing import List
 
 
 
-Mylist: List[int] = [1,2,3,4,5,6,7,8,9]
 
-for i, item in enumerate(Mylist):
-    if i == 2 or i == 4 or i == 6:
-        print(item)
+# A: List[str] = ["code", "With", "Harry"] 
+# final  = "(*__*)".join(A)
+# print(final)
+
+
+
+# Mylist: List[int] = [1,2,3,4,5,6,7,8,9]
+
+# for i, item in enumerate(Mylist):
+#     if i == 2 or i == 4 or i == 6:
+#         print(item)
 
 
 

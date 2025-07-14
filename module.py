@@ -3,7 +3,7 @@
 
 
 # print(sum(5,6))
-from typing import Tuple, List, Dict, Union
+# from typing import Tuple, List, Dict, Union
 
 # person: Tuple[str, int] = ("Alice", 30)
 # scores: Dict[str, int] = {"SABBIR": 19, "Home": 717}
@@ -32,7 +32,7 @@ from typing import Tuple, List, Dict, Union
 # else:
 #     print(f"The division a/b is: {a // b}")\
 
-myList: List[int] =  [1,2,3,4,5,6,7,8]
+# myList: List[int] =  [1,2,3,4,5,6,7,8]
 
-squareOfMylist = [ i*i for i in myList]
-print(squareOfMylist)
+# squareOfMylist = [ i*i for i in myList]
+# print(squareOfMylist)
