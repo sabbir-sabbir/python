@@ -224,11 +224,19 @@
 
 
 
-class Student:
-    name = "SABBIR"
+# class Student:
+#     name = "SABBIR"
 
 
-s1 = Student()
-s2 = Student()
-print(s1.name)    
-print(s2.name)
+# s1 = Student()
+# s2 = Student()
+# print(s1.name)    
+# print(s2.name)
+
+
+class Car:
+    color = "Blue"
+    brand = "BMW"
+
+
+CarOne.Car()
