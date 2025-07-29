@@ -234,11 +234,39 @@
 # print(s2.name)
 
 
-class Car:
-    color = "Blue"
-    Brand = "BMW"
+# class Car:
+#     color = "Blue"
+#     Brand = "BMW"
 
 
-car1 = Car()
-print(car1.color)    
-print(car1.Brand)    
+# car1 = Car()
+# print(car1.color)    
+# print(car1.Brand)    
+
+
+# class Student:
+#     def __init__(self, firstName, lastName):
+#         print("Hello world Lets Create New Student")
+#         self.firstName = firstName   
+#         self.lastName = lastName
+
+# student1 = Student("SABBIR", "RAHMAN")
+# print(student1.firstName)    
+# print(student1.lastName)    
+
+
+
+
+
+# python
+class Complex:
+    def __init__(self, real, img):
+       self.real = real
+       self.img = img
+
+
+    def showNumber(self):
+        print(self.real, "i +", self.img, "j")  
+
+num1 = Complex(1, 3) 
+num1.showNumber()       
