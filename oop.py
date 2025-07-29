@@ -236,7 +236,9 @@
 
 class Car:
     color = "Blue"
-    brand = "BMW"
+    Brand = "BMW"
 
 
-CarOne.Car()
+car1 = Car()
+print(car1.color)    
+print(car1.Brand)    
